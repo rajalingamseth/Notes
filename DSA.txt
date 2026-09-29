@@ -4,3 +4,4 @@ Points to remember :
 
 1. In search in a 2D matrix - I, we can consider l=0; h = (m*n)-1; mid=(l+h)/2; then row = mid/total_Col, col = mid%total_col;
 
+2. In find peak element - 2, (m*logn), guess a column, find the max in that col (up, down is done), check with left or right and eliminate accordingly.
