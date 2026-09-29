@@ -1,0 +1,5 @@
+SAGA Pattern :
+Order (success) -> Inventory (Updated) -> Payment (Failed) - How do you handle ACID in microservices?
+-> Local transactions instead of one large transaction -> If something fails somewhere -> Perform Compensation transaction backwards in each service.
+
+-> We can use Choreography (services know what to do) -> Or use SAGA Orchestrator (if several services to manage such cases).
